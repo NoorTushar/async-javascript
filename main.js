@@ -72,6 +72,11 @@ const production = () => {
                      console.log(
                         `toppings: ${stocks.toppings[0]} was selected`
                      );
+
+                     // serve the ice cream
+                     setTimeout(() => {
+                        console.log(`The ice cream was served`);
+                     }, 2000);
                   }, 3000);
                }, 2000);
             }, 1000);
